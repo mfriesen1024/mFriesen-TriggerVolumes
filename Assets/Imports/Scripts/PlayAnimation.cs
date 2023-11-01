@@ -11,6 +11,7 @@ public class AnimationButton : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("Player Noticed!");
             isPlayerOnButton = true;
             PlayAnimation();
         }
